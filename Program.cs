@@ -1,8 +1,9 @@
 ﻿using System;
 
 int n = 5;
-if(args.Length == 1 && int.TryParse(args[0], out int parsedN)) {
-n = parsedN;
+<<<<<<< HEAD
+if (args.Length == 1 && int.TryParse(args[0], out in parsedN)) {
+  n = parsedN;
 }
 
 int[] fibonacci = CreateFibonacciSeries(n);
