@@ -2,6 +2,10 @@
 
 int n = 5;
 
+if(args.Length == 1 && int.TryParse(args[0], out int parsedN)) {
+  n = parsedN;
+}
+
 int[] fibonacci = CreateFibonacciSeries(n);
 
 for (int i = 0; i < fibonacci.Length; i++) {
