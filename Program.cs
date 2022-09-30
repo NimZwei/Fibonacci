@@ -1,6 +1,7 @@
 ﻿using System;
 
 int n = 5;
+<<<<<<< HEAD
 if (args.Length == 1 && int.TryParse(args[0], out in parsedN)) {
   n = parsedN;
 }
