@@ -2,7 +2,7 @@
 
 int n = 5;
 
-int[] fibonacci = CreateFibonacciSeries(n);
+int[] fibonacci = CreateFibonacciSeries(n);//noice
 
 for (int i = 0; i < fibonacci.Length; i++) {
   Console.WriteLine($"f_{i} = {fibonacci[i]}");
