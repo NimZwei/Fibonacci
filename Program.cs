@@ -1,6 +1,5 @@
 ﻿using System;
 
-int n = 5;
 if(args.Length == 1 && int.TryParseInt(args[0], out int parsedN)) {
 	n = parsedN
 }
